@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    /* font-family: "Roboto", sans-serif; */
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+/* header section css */
+.navbar{
+    background: #F0FFF0;
+
+}
+.navbar .nav-item{
+    margin-right: 25px;
+
+}
+.navbar .nav-item .nav-link{
+    color: black;
+}
+.singin{
+    background: #21B573;
+    padding: 1px 20px;
+    border-radius: 33px;
+    font-family: "Roboto", sans-serif;
+    
+
+}
+.sing-c{
+    color: white !important;
+}
+
+/* bennar section css */
+.bennar-section{
+    padding: 25px 0 70px;
+   width: 100%;
+   background: #F0FFF0;
+
+}
+.content{
+    margin-top: 50px;
+
+}
+.content .sub-taitle{
+    color: #FD511A;
+
+}
+.content h1{
+
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    width: 75%;
+    margin: -8px 0 20px;
+}
+.content h1 span{
+    color: #21B573;
+
+}
+.content .pera{
+    line-height: 36px;
+    width: 75%;
+
+}
+.content .geat-started{
+    margin-top: 35px;
+}
+.content .geat-started a{
+    background: #21B573;
+    padding: 12px 36px;
+    border-radius: 33px;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #fff;
+}
+/* feature section css */
+.feature-section{
+    width: 100%;
+    padding: 45px 0 75px;
+}
+.feature-section .f-card{
+    text-align: center;
+    background-color: #F8FFFB;
+
+    padding: 50px 0;
+    margin: 0 5px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.feature-section .f-card:hover{
+    box-shadow: 0 20px 40px 0 #0000001A;
+    transition: 0.7s;
+
+}
+.feature-section .f-card h5{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin: 30px 0 0;
+}
+.feature-section .f-card p{
+    text-align: center;
+}
+/* courses section css */
+.courses-section{
+    width: 100%;
+    padding: 40px 50px;
+}
+.courses-inner{
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    padding: 20px;
+    border-radius: 18px;
+    margin: 0 5px;
+
+}
+.courses-section h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.contant h4{
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 20px;
+}
+.buy-courses{
+    margin-top: 30px;
+}
+.buy-courses a{
+    background: #21B573;
+    padding: 8px 28px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    border-radius: 33px;
+
+}
+.c-foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 5px;
+}
+/* testimoniyal-section css */
+testimoniyal-section{
+    width: 100%;
+  
+    
+}
+.testimoniyal-section h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 70px;
+    margin: 50px 0 75px;
+}
+.t-container{
+    display: flex;
+    justify-content: center;
+    margin-left:25vh;
+    margin-bottom: 15vh;
+
+}
+.t-container .t-img{
+    margin-right: 30px;
+    margin-top: -20px;
+    
+}
+.c-para p{
+    width: 91%;
+}
+
+   
+/* footer-section css */
+footer{
+    background: #282531;
+    color: white;
+    padding: 60px 0 15px;
+    margin-top: 50px;
+}
+footer ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+footer h6{
+    font-weight: 700;
+}
+footer .c-para{
+    width: 82%;
+
+}
+footer .copyright{
+    text-align: center;
+    color: #CDCDCD;
+    margin-top: 40px;
+    
+}
